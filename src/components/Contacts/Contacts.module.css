@@ -1,0 +1,28 @@
+.contactLict {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.contactLictItem {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+
+.btnDel {
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: rgb(89, 158, 238);
+  color: #fff;
+}
+
+.btnDel:hover,
+.btnDel:focus {
+  transform: scale(1.05);
+  background-color: rgb(245, 35, 20);
+}

@@ -1,0 +1,36 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formLabel {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 auto; */
+}
+
+input {
+  margin-left: 10px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.btmAdd {
+  /* margin: 0 auto; */
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(89, 158, 238);
+  color: #fff;
+  height: 40px;
+
+  transform: scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btmAdd:hover,
+.btmAdd:focus {
+  transform: scale(1.05);
+  background-color: rgb(136, 226, 176);
+}
